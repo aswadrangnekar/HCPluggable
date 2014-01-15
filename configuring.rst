@@ -426,9 +426,8 @@ Example::
   filesystem_store_datadirs = /var/glance/store1:100
   filesystem_store_datadirs = /var/glance/store2:200
 
-Can only be specified in configuration files.
-
-`This option is specific to the filesystem storage backend.`
+This option can only be specified in configuration files and is specific
+to the filesystem storage backend.
 
 filesystem_store_datadirs option allows administrators to configure
 multiple store directories to save glance image in filesystem storage backend.
