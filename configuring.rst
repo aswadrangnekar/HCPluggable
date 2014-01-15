@@ -420,8 +420,7 @@ Configuring the Filesystem Storage Backend with multiple stores
 
 Optional. Default: ``/var/lib/glance/images/:1``
 
-Example:
-
+Example::
   filesystem_store_datadirs = /var/glance/store
   filesystem_store_datadirs = /var/glance/store1:100
   filesystem_store_datadirs = /var/glance/store2:200
