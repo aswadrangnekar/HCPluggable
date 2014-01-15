@@ -421,9 +421,10 @@ Configuring the Filesystem Storage Backend with multiple stores
 Optional. Default: ``/var/lib/glance/images/:1``
 
 Example:
-filesystem_store_datadirs = /var/glance/store
-filesystem_store_datadirs = /var/glance/store1:100
-filesystem_store_datadirs = /var/glance/store2:200
+
+  filesystem_store_datadirs = /var/glance/store
+  filesystem_store_datadirs = /var/glance/store1:100
+  filesystem_store_datadirs = /var/glance/store2:200
 
 Can only be specified in configuration files.
 
@@ -433,7 +434,7 @@ filesystem_store_datadirs option allows administrators to configure
 multiple store directories to save glance image in filesystem storage backend.
 Each directory can be coupled with its priority.
 
-Note:
+**Note**:
 * Either filesystem_store_datadir or filesystem_store_datadirs option must be
   specified in glance-api.conf
 * Store with priority 200 has precedence over store with priority 100.
